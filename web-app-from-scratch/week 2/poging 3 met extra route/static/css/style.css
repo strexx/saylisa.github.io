@@ -9,10 +9,6 @@ section{
     margin: 0 auto;
 }
 
-#nav{
-    background-color:antiquewhite;
-}
-
 #startscreen{
     background-color:burlywood;
 }
@@ -28,6 +24,7 @@ section{
 nav{
     text-align:left;
     padding:0;
+    background-color:antiquewhite;
 }
 
 ul{

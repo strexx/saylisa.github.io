@@ -42,7 +42,7 @@ var webApp = webApp || {};
     // Object Literal sections
     webApp.sections = {
         toggle: function (route) {
-            var sections = document.querySelectorAll(".togglesection")
+            var sections = document.querySelectorAll('.togglesection')
 
             for (var i = 0; i < sections.length; i++) {
                 // add inactive aan alle sections
