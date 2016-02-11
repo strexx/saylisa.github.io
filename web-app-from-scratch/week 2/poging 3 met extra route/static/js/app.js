@@ -30,8 +30,6 @@ var webApp = webApp || {};
                 },
                 'musea-detail/:name': function(name){
                     webApp.sections.toggle(window.location.hash.slice(0,13));
-                    console.log(name);
-//                    console.log(name.replace(/-/g, " "));
                 },
                 '*': function () {
                     webApp.sections.toggle(window.location.hash);
