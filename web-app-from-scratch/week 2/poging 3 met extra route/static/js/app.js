@@ -28,6 +28,7 @@ var webApp = webApp || {};
                 'musea': function () {
                     webApp.sections.toggle(window.location.hash);
                 },
+                // Check of je hier met een ID kunt werken, dat is makkelijker voor de routing
                 'musea-detail/:name': function(name){
                     webApp.sections.toggle(window.location.hash.slice(0,13));
 
